@@ -1,0 +1,315 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+html{scroll-behavior: smooth;}
+.main-color{color: #1c1c1c;}
+.back-color{background-color: #1c1c1c;}
+
+.nav-item  .active{
+  border-bottom: 2px solid white;
+}
+header {
+  background-image: url(../img/bg.jpg);
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+header .layer {
+  background-color: rgba(0, 0, 0, 0.685);
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+a{
+  text-decoration: none;
+   color: black;}
+.social-icons a {
+  color: white;
+  padding: 10px;
+  margin: 0 5px;
+  background-color: rgba(128, 128, 128, 0.106);
+  border-radius: 50%;
+}
+header h5 {
+  font-size: 50px;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+
+header h1 {
+  font-size: 3rem;
+  line-height: 1.2;
+  font-weight: 200;
+}
+header h1::after {
+  content: "|";
+  animation-name: typing;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+@keyframes typing {
+  0% {
+    content: " L";
+  }
+  2% {
+    content: "La";
+  }
+  4% {
+    content: "Lar";
+  }
+  6% {
+    content: "Larr";
+  }
+  8% {
+    content: "Larry";
+  }
+  10% {
+    content: "Larry D";
+  }
+  12% {
+    content: "Larry Da";
+  }
+  14% {
+    content: "Larry Dan";
+  }
+  16% {
+    content: "Larry Dani";
+  }
+  18% {
+    content: "Larry Danie";
+  }
+  20% {
+    content: "Larry Daniel";
+  }
+  22% {
+    content: "Larry Daniels";
+  }
+  23% {
+    content: "Larry Daniels ";
+  }
+  23.5% {
+    content: "Larry Daniels  ";
+  }
+  24% {
+    content: "Larry Daniel";
+  }
+  26% {
+    content: "Larry Danie";
+  }
+  28% {
+    content: "Larry Dani";
+  }
+  29% {
+    content: "Larry Dan";
+  }
+  30% {
+    content: "Larry Da";
+  }
+  31% {
+    content: "Larry D";
+  }
+  32% {
+    content: "Larry";
+  }
+  34% {
+    content: "Larr";
+  }
+  36% {
+    content: "Lar";
+  }
+  38% {
+    content: "La";
+  }
+  40% {
+    content: "L";
+  }
+  43% {
+    content: " ";
+  }
+  44% {
+    content: " D";
+  }
+  46% {
+    content: "De";
+  }
+  48% {
+    content: "Dev";
+  }
+  50% {
+    content: "Deve";
+  }
+  52% {
+    content: "Devel";
+  }
+  54% {
+    content: "Develo";
+  }
+  56% {
+    content: "Develop";
+  }
+  58% {
+    content: "Develope";
+  }
+  60% {
+    content: "Developer";
+  }
+  62% {
+    content: "Develop";
+  }
+  64% {
+    content: "Develo";
+  }
+  66% {
+    content: "Devel";
+  }
+  68% {
+    content: "Deve";
+  }
+  70% {
+    content: "Dev";
+  }
+  72% {
+    content: "De";
+  }
+  74% {
+    content: "D";
+  }
+  76% {
+    content: "  ";
+  }
+}
+
+.dot-img {
+  background-image: url(../img/dots.png);
+  background-repeat: repeat;
+  height: 20rem;
+}
+.hero-img img {
+  position: absolute;
+  left: 10%;
+  bottom: 10%;
+  width: 100%;
+}
+
+ .btn {
+  border: 1px solid #1c1c1c;
+  padding: 10px;
+}
+.btn-1{
+  color: white;
+  background-color: #1c1c1c;
+  transition: 1s;
+}
+.btn-1:hover{
+  color: #1c1c1c;
+  background-color: white;
+}
+.btn-2{
+  color: #1c1c1c;
+  background-color: white;
+  transition: 1s;
+}
+.btn-2:hover{
+  color:white ;
+  background-color: #1c1c1c;
+}
+
+.icons .icon{
+  border-radius: 50%;
+  width: 65px;
+  height: 65px;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.079);
+  transition: all 1s;
+}
+
+.icons:hover .icon{
+  background-color: #1c1c1c;
+  color: white;
+}
+#Services{background-color:#f7f7f7;}
+
+.dots{height: 30px;
+  background-image: url(../img/dots.png);
+background-repeat: repeat;
+width:13%;
+}
+
+
+#Portfolio img{
+  width: 100%;
+}
+#Portfolio .layer{
+  width: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition:all 1s;
+}
+#Portfolio .layer:hover{
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.878);
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  border: 7px solid rgba(128, 128, 128, 0.361);
+  opacity: 1;
+}
+
+#Portfolio .icon a{
+  color: white;
+  padding: 10px;
+  margin: 0 5px;
+  background-color: rgba(0, 0, 0, 0.863);
+  border-radius: 50%;
+  transition:all 1s;
+}
+#Portfolio .icon a:hover{
+  color: black;
+  padding: 10px;
+  margin: 0 5px;
+  background-color: white;
+  border-radius: 50%;
+}
+#Portfolio .layer:hover .icon{
+  transition:1s;
+  margin-top: 20px !important;
+}
+
+#Testimonials button ,#Blog button{
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  margin: 0 8px;
+  background-color: #748182;
+}
+#Testimonials{background-color: #f7f7f7;}
+
+.numbers i{font-size: 50px;}
+
+#Blog{background-color: #f7f7f7;}
+
+.img-scale img{transition: all 1s;overflow: hidden;}
+ .img-scale{overflow: hidden;}
+.img-scale:hover img {transform: scale(1.2);}
+
+
+
+footer{background-color: #1c1c1c;}
+footer p{color: #748182; font-size: 13px;}
+
